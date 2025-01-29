@@ -3,6 +3,7 @@
 
 ## Overview
 OCR Reader is a Django-based web application that extracts text from images and PDF files using Tesseract OCR. The application provides a user-friendly interface with Bootstrap and Font Awesome icons, ensuring a seamless and visually appealing experience.
+
 ---
 
 ## Features
@@ -52,11 +53,13 @@ Ensure you have the following installed:
    python manage.py runserver
    ```
 5. Open your browser and visit `http://127.0.0.1:8000/` to use the application.
+---
 
 ## Usage
 1. Upload an image file (JPEG, PNG) or a PDF file.
 2. Click the **Extract Image** or **Extract PDF** button.
 3. Extracted text will be displayed on the screen.
+---
 
 ## File Structure
 ```
