@@ -130,3 +130,13 @@ from django.contrib  import messages
 MESSAGE_TAGS= {
     messages.ERROR : 'danger'
 }
+
+import os
+import platform
+import pytesseract
+
+# Automatically detect OS and set the correct Tesseract path
+if platform.system() == "Windows":
+    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+else:
+    pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
