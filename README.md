@@ -1,69 +1,90 @@
-# Optical Character Reader
+# 🖹 Optical Character Reader (OCR)  
+_A Django-based web application for extracting text from images and PDFs using Tesseract OCR._
+
+![OCR Banner](https://via.placeholder.com/1200x400?text=Optical+Character+Reader)  
+
 ---
 
-## Overview
-OCR Reader is a Django-based web application that extracts text from images and PDF files using Tesseract OCR. The application provides a user-friendly interface with Bootstrap and Font Awesome icons, ensuring a seamless and visually appealing experience.
+## 🚀 Overview  
+**OCR Reader** is a **Django**-powered web application that leverages **Tesseract OCR** to extract text from images and multi-page PDF files. The application provides an intuitive **Bootstrap 5** interface with **Font Awesome** icons, ensuring a smooth and visually appealing user experience.
 
 ---
 
-## Features
-- Upload and process image files (JPEG, PNG, etc.) to extract text.
-- Upload and process multi-page PDF files for text extraction.
-- User-friendly UI with Bootstrap 5 and Font Awesome icons.
-- Automatic file management (temporary file deletion after processing).
-- Python-based backend leveraging Django and Tesseract OCR.
+## ✨ Features  
+✔️ Upload and process **image files** (`JPEG`, `PNG`, etc.) for text extraction.  
+✔️ Upload and process **multi-page PDF files** for text recognition.  
+✔️ **User-friendly UI** with Bootstrap 5 and Font Awesome icons.  
+✔️ **Automatic file management** (temporary file deletion after processing).  
+✔️ Powered by **Python, Django, and Tesseract OCR** for robust text extraction.  
+
 ---
 
-## Technologies Used
-- **Frontend:** HTML, CSS (Bootstrap 5), Font Awesome
-- **Backend:** Django, Python
-- **OCR Engine:** Tesseract OCR
-- **PDF Processing:** PyMuPDF (Fitz)
+## 🛠️ Technologies Used  
+| **Technology**   | **Description** |
+|-----------------|---------------|
+| **Frontend**   | HTML, CSS (Bootstrap 5), Font Awesome |
+| **Backend**    | Django, Python |
+| **OCR Engine** | Tesseract OCR |
+| **PDF Handling** | PyMuPDF (Fitz) |
+
 ---
 
-## Installation
+## 🔧 Installation  
+
+### ✅ Prerequisites  
+Ensure you have the following installed before proceeding:  
+- **Python 3.12+**  
+- **Django 5.1+**  
+- **Tesseract OCR** ([Download Here](https://github.com/UB-Mannheim/tesseract/wiki))  
+- **PyMuPDF (Fitz)**  
+
 ---
 
-### Prerequisites
-Ensure you have the following installed:
-- Python 3.12+
-- Django 5.1+
-- Tesseract OCR ([Download Here](https://github.com/UB-Mannheim/tesseract/wiki))
-- PyMuPDF (Fitz)
----
+### 📌 Setup Instructions  
 
-### Setup Instructions
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Boboahmedino/Optical-Character-Reader.git
-   cd ocr
-   ```
-2. Create a virtual environment and activate it:
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-3. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-4. Run migrations and start the server:
-   ```sh
-   python manage.py migrate
-   python manage.py runserver
-   ```
-5. Open your browser and visit `http://127.0.0.1:8000/` to use the application.
----
-
-## Usage
-1. Upload an image file (JPEG, PNG) or a PDF file.
-2. Click the **Extract Image** or **Extract PDF** button.
-3. Extracted text will be displayed on the screen.
----
-
-## File Structure
+1️⃣ **Clone the repository**  
+```sh
+git clone https://github.com/Boboahmedino/Optical-Character-Reader.git
+cd Optical-Character-Reader
 ```
-ocr/
+
+2️⃣ **Create a virtual environment & activate it**  
+```sh
+python -m venv venv
+# Activate on Windows:
+venv\Scripts\activate
+# Activate on macOS/Linux:
+source venv/bin/activate
+```
+
+3️⃣ **Install dependencies**  
+```sh
+pip install -r requirements.txt
+```
+
+4️⃣ **Run migrations & start the server**  
+```sh
+python manage.py migrate
+python manage.py runserver
+```
+
+5️⃣ **Access the application**  
+Open your browser and visit:  
+🔗 **[http://127.0.0.1:8000/](http://127.0.0.1:8000/)**  
+
+---
+
+## 🎯 Usage  
+
+1️⃣ **Upload** an image (`JPEG`, `PNG`) or a PDF file.  
+2️⃣ Click **Extract Image** or **Extract PDF**.  
+3️⃣ The extracted text will be displayed on the screen.  
+
+---
+
+## 📁 Project Structure  
+```plaintext
+Optical-Character-Reader/
 │-- manage.py
 │-- optical_reader/
 │   │-- settings.py
@@ -73,8 +94,13 @@ ocr/
 │   │-- reader.html
 │-- requirements.txt
 ```
+
 ---
 
-## Author
-Olaneye Ahmed Oladapo
+## 👤 Author  
+**Olaneye Ahmed Oladapo**  
+📧 Email: [Your Email]  
+🔗 GitHub: [Boboahmedino](https://github.com/Boboahmedino)  
+🔗 LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/olaneye/)  
 
+---
