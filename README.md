@@ -1,8 +1,6 @@
 # 🖹 Optical Character Reader (OCR)  
 _A Django-based web application for extracting text from images and PDFs using Tesseract OCR._
 
-![OCR Banner](https://via.placeholder.com/1200x400?text=Optical+Character+Reader)  
-
 ---
 
 ## 🚀 Overview  
@@ -101,6 +99,6 @@ Optical-Character-Reader/
 **Olaneye Ahmed Oladapo**  
 📧 Email: [Your Email]  
 🔗 GitHub: [Boboahmedino](https://github.com/Boboahmedino)  
-🔗 LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/olaneye/)  
+🔗 LinkedIn: [Olaneye Ahmed Oladapo](https://www.linkedin.com/in/olaneye/)  
 
 ---
