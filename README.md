@@ -97,7 +97,6 @@ Optical-Character-Reader/
 
 ## 👤 Author  
 **Olaneye Ahmed Oladapo**  
-📧 Email: [Your Email]  
 🔗 GitHub: [Boboahmedino](https://github.com/Boboahmedino)  
 🔗 LinkedIn: [Olaneye Ahmed Oladapo](https://www.linkedin.com/in/olaneye/)  
 
